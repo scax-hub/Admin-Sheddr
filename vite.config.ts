@@ -11,11 +11,10 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './index.html',
-        normal: './normal.html'
       }
     }
   },
   server: {
-    port: 5173, // Admin interface port
+    port: 5173,
   }
 });
