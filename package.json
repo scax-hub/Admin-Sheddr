@@ -5,9 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:normal": "vite -c vite.config.normal.ts",
     "build": "tsc && vite build",
-    "build:normal": "tsc && vite build -c vite.config.normal.ts",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "preview:normal": "vite preview -c vite.config.normal.ts"
